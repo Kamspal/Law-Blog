@@ -1,154 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/img/cropped.png">
-    <title>Stiff Rowlands - Law Blog</title>
-
-    <link rel="stylesheet" href="/css/new.css" type="text/css">
-    <link rel="stylesheet" href="/css/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
-<body class="bg box-layout">
-    <div class="container-fluid header-box">
-        <header class="header-box1">
-            <div class="top-bar">
-                <div class="container-fluid">
-                    <div class="menu-toggle">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                    </div>
-                    <div class="search-btn">
-                        <i class="fa fa-search"></i>
-                    </div>
-                    <div class="search-display">
-                        <form action="" class="search-form">
-                            <input type="text" placeholder="Write and hit enter">
-                            <button type="submit" class="submit">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </form>
-                    </div>
-                    <div class="social"></div>
-                </div>
-            </div>
-            <div class="container-fluid logo-box">
-                <div class="logo">
-                    <h1 class="title">
-                        <a href="">
-                            <img src="/img/1.gif" alt="">
-                        </a>
-                    </h1>
-                    <h2 class="line">Law Blog</h2>
-                </div>
-            </div>
-        </header>
-
-        <div class="slider">
-            <div class="container-fluid">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active bg-color" style="width: 1024px; height:520px">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
-                                    <h2> <a href="">What is Fraud?</a></h2>
-                                    <a class="margin" href="">Read More</a>
-                                </div>
-                                </div>
-                                <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/drug.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
-                                    <h2> <a href="">How To Fight Federal Drug Trafficking Charges</a></h2>
-                                        <a class="margin" href="">Read More</a>
-                                </div>
-                                </div>
-                                <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/for-sale.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
-                                    <h2> <a href="">Top 8 Things to Avoid in the Real State Age...</a></h2>
-                                        <a class="margin" href="">Read More</a>
-                                </div>
-                                </div>
-                                <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/chicken.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
-                                    <h2> <a href="">Serious Animal Cruelty Under the Crime Acts...</a></h2>
-                                        <a class="margin" href="">Read More</a>
-                                </div>
-                                </div>
-                                <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/pork.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
-                                    <h2> <a href="">ACT Ban Factory Farming but How will it be E...</a></h2>
-                                        <a class="margin" href="">Read More</a>
-                                </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev control" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon control-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next control" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon control-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                            </div>
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main col-md-8">
-                        <article class="article-grid col-sm-6">
-                            <div class="k-grid">
-                                <div class="k-grid-content">
-                                    <div class="grid-post">
-                                        <ul class="post-categories">
-                                            <li><a class="same" href="">International Law</a></li>
-                                        </ul>
+@extends('layouts.layouts')
+@section('content')
+@include('slider')
+    
+            <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="main col-md-8">
+                                <article class="article-grid col-sm-6">
+                                    <div class="k-grid">
+                                        <div class="k-grid-content">
+                                            <div class="grid-post">
+                                                <ul class="post-categories">
+                                                    <li><a class="same" href="category/international-law">International Law</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="what-is-fraud">What is Fraud?</a>
+                                            </h2>
+                                            <div class="grid-meta">
+                                                By
+                                                <span class="sep">|</span>
+                                                <a class="same" href="">0 comments</a>
+                                            </div>
+                                            <hr>
+                                            <div class="grid-entry">
+                                                <p>
+                                                    EFFECTS OF FRAUD ON THE VALIDITY OF CONTRACT OR REMEDIES The injured can rescind the contract, but it must be done within a reasonable lime. 4.&nbsp; ACT UPON&nbsp; CONTRACT The second option is that the defrauded party may act upon the contract and may ask the other party to fiilfil [he Terms and conditions of the contract 3.&nbsp; SUIT FOR DAMAGES The third…
+                                                </p>
+                                            </div>
+                                            <a class="same" href="what-is-fraud">Read more »</a>
+                                        </div>
                                     </div>
-                                    <h2 class="post-title">
-                                        <a href="">What is Fraud?</a>
-                                    </h2>
-                                    <div class="grid-meta">
-                                        By
-                                        <span class="sep">|</span>
-                                        <a class="same" href="">0 comments</a>
-                                    </div>
-                                    <hr>
-                                    <div class="grid-entry">
-                                        <p>
-                                            EFFECTS OF FRAUD ON THE VALIDITY OF CONTRACT OR REMEDIES The injured can rescind the contract, but it must be done within a reasonable lime. 4.&nbsp; ACT UPON&nbsp; CONTRACT The second option is that the defrauded party may act upon the contract and may ask the other party to fiilfil [he Terms and conditions of the contract 3.&nbsp; SUIT FOR DAMAGES The third…
-                                        </p>
-                                    </div>
-                                    <a class="same" href="">Read more »</a>
-                                </div>
-                            </div>
-                        </article>
+                                </article>
+        
 
                         <article class="article-grid col-sm-6">
                             <div class="k-grid">
                                 <div class="post-media">
-                                    <a href="">
+                                    <a href="how-to-fight-federal-drug-trafficking-charges">
                                         <img src="/img/drug-law1.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="k-grid-content">
                                     <div class="grid-post">
                                         <ul class="post-categories">
-                                            <li><a class="same" href="">Drug Trafficking Law</a></li>
+                                            <li><a class="same" href="/category/drug-trafficking-law">Drug Trafficking Law</a></li>
                                         </ul>
                                     </div>
                                     <h2 class="post-title">
-                                        <a href="">How To Fight Federal Drug Trafficking Charges?</a>
+                                        <a href="how-to-fight-federal-drug-trafficking-charges">How To Fight Federal Drug Trafficking Charges?</a>
                                     </h2>
                                     <div class="grid-meta">
                                         By
@@ -161,7 +61,7 @@
                                             If you have been accused of federal drug trafficking charges, you know that you are going to be facing an uphill battle to get those charges eliminated or even reduced. The federal government takes drug charges of all kinds extremely seriously, but they are even more serious about drug trafficking charges in Oklahoma. Typically, states will work with federal agencies…
                                         </p>
                                     </div>
-                                    <a class="same" href="">Read more »</a>
+                                    <a class="same" href="how-to-fight-federal-drug-trafficking-charges">Read more »</a>
                                 </div>
                             </div>
                         </article>
@@ -169,18 +69,18 @@
                         <article class="article-grid col-sm-6">
                             <div class="k-grid">
                                 <div class="post-media">
-                                    <a href="">
+                                    <a href="top-8-things-avoid-real-estate-agent-choose-list-home">
                                         <img src="/img/for-sale.png" alt="">
                                     </a>
                                 </div>
                                 <div class="k-grid-content">
                                     <div class="grid-post">
                                         <ul class="post-categories">
-                                            <li><a class="same" href="">Person Injury Law</a></li>
+                                            <li><a class="same" href="category/personal-injury-law">Person Injury Law</a></li>
                                         </ul>
                                     </div>
                                     <h2 class="post-title">
-                                        <a href="">Top 8 Things to Avoid in the Real State Agent you Choose to list your Home</a>
+                                        <a href="top-8-things-avoid-real-estate-agent-choose-list-home">Top 8 Things to Avoid in the Real State Agent you Choose to list your Home</a>
                                     </h2>
                                     <div class="grid-meta">
                                         By
@@ -193,7 +93,7 @@
                                             1&nbsp; *Agents that are rude. Sellers often pick these agents under the mistaken impression that it will benefit them because they have a “tough agent”. But in most real estate markets, other agents typically don’t want to deal with them and are less likely to show their listings. Additionally, when buyers run into a rude listing agent, they are more inclined…
                                         </p>
                                     </div>
-                                    <a class="same" href="">Read more »</a>
+                                    <a class="same" href="top-8-things-avoid-real-estate-agent-choose-list-home">Read more »</a>
                                 </div>
                             </div>
                         </article>
@@ -201,18 +101,18 @@
                         <article class="article-grid col-sm-6">
                             <div class="k-grid">
                                 <div class="post-media">
-                                    <a href="">
+                                    <a href="serious-animal-cruelty-crimes-act-nsw">
                                         <img src="/img/chicken.png" alt="">
                                     </a>
                                 </div>
                                 <div class="k-grid-content">
                                     <div class="grid-post">
                                         <ul class="post-categories">
-                                            <li><a class="same" href="">Animal Law</a></li>
+                                            <li><a class="same" href="category/animal-law">Animal Law</a></li>
                                         </ul>
                                     </div>
                                     <h2 class="post-title">
-                                        <a href="">Serious Animal Cruelty Under the Crimes Act (NSW)</a>
+                                        <a href="serious-animal-cruelty-crimes-act-nsw">Serious Animal Cruelty Under the Crimes Act (NSW)</a>
                                     </h2>
                                     <div class="grid-meta">
                                         By
@@ -225,26 +125,26 @@
                                             Jacob Vanderschoot became the first person to be convicted of serious animal cruelty at the Local Court, in Mt. Druitt, NSW. Vanderschoot used a boning knife to cut the dog Bouncer’s throat and left him lying in his front yard for hours[1]. For this act, Vanderschoot received no jail time and was instead sentenced to a 12 month intensive corrective…
                                         </p>
                                     </div>
-                                    <a class="same" href="">Read more »</a>
+                                    <a class="same" href="serious-animal-cruelty-crimes-act-nsw">Read more »</a>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="article-grid pad1 col-sm-6" style="float: none">
+                        <article class="article-grid pad1 col-sm-6">
                             <div class="k-grid">
                                 <div class="post-media">
-                                    <a href="">
+                                    <a href="act-ban-factory-farming-will-enforced">
                                         <img src="/img/pork.png" alt="">
                                     </a>
                                 </div>
                                 <div class="k-grid-content">
                                     <div class="grid-post">
                                         <ul class="post-categories">
-                                            <li><a class="same" href="">Animal Law</a></li>
+                                            <li><a class="same" href="category/animal-law">Animal Law</a></li>
                                         </ul>
                                     </div>
                                     <h2 class="post-title">
-                                        <a href="">ACT Ban Factory Farming but How will it be Enforced</a>
+                                        <a href="act-ban-factory-farming-will-enforced">ACT Ban Factory Farming but How will it be Enforced</a>
                                     </h2>
                                     <div class="grid-meta">
                                         By
@@ -257,11 +157,12 @@
                                             This week the Australian Capital Territory (ACT) passed legislation to prohibit the use of battery cages and sow stalls[1]. This is a step forward for animal protection and been hailed as a victory by animal advocacy groups such as Voiceless and Animals Australia. Under s9A of the&nbsp; Animal Welfare (Factory Farming) Amendment Bill 2013&nbsp; it is an offence for a person to…
                                         </p>
                                     </div>
-                                    <a class="same" href="">Read more »</a>
+                                    <a class="same" href="act-ban-factory-farming-will-enforced">Read more »</a>
                                 </div>
                             </div>
                         </article>
                     </div>
+                
                     <div class="side col-sm-4">
                         <aside>
                             <div class="search-display widget display">
@@ -275,10 +176,10 @@
                             <div class="widget">
                                 <h4 class="title1">Categories</h4>
                                 <ul>
-                                    <li><a class="same" href="">Animal Law</a></li>
-                                    <li><a class="same" href="">Drug Trafficking Law</a></li>
-                                    <li><a class="same" href="">International Law</a></li>
-                                    <li><a class="same" href="">Personal Injury Law</a></li>
+                                    <li><a class="same" href="category/animal-law">Animal Law</a></li>
+                                    <li><a class="same" href="category/drug-trafficking-law">Drug Trafficking Law</a></li>
+                                    <li><a class="same" href="category/international-law">International Law</a></li>
+                                    <li><a class="same" href="category/personal-injury-law">Personal Injury Law</a></li>
                                 </ul>
                             </div>
                             <div class="widget">
@@ -340,7 +241,7 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <span><a class="same" href="">« Apr</a></span>
+                                    <span><a class="same" href="2020/04">« Apr</a></span>
                                 </div>
                             </div>
                             <div class="widget">
@@ -357,26 +258,4 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <footer>
-        <div class="foot">
-            <div class="container-fluid footer">
-                <div class="row1">
-                    <div class="col-sm-6">
-                        <p>
-                        Copyright 2017 CleanBlog | Theme by 
-                        <a class="same"href="">AirThemes</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-</body>
-</html>
+@endsection
