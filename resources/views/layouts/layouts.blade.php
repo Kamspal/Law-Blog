@@ -15,7 +15,7 @@
     <div class="container-fluid header-box">
         <header class="header-box1">
             <div class="top-bar">
-                <div class="container-fluid">
+                <div class="container-fluid overflow">
                     <div class="search-btn call">
                         <i class="fa fa-search"></i>
                     </div>
@@ -49,7 +49,7 @@
 
     <footer>
         <div class="foot">
-            <div class="container-fluid footer">
+            <div class="footer">
                 <div class="row1">
                     <div class="col-sm-6">
                         <p>

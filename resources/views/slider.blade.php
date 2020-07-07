@@ -10,35 +10,35 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active bg-color" style="width: 1024px; height:520px">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
+                                <div class="carousel-caption d-md-block box-wrapper">
                                     <h2> <a href="what-is-fraud">What is Fraud?</a></h2>
                                     <a class="margin" href="what-is-fraud">Read More</a>
                                 </div>
                                 </div>
                                 <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/drug.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
+                                <img src="/img/drug.jpg" class="d-block" alt="...">
+                                <div class="carousel-caption d-md-block box-wrapper">
                                     <h2> <a href="how-to-fight-federal-drug-trafficking-charges">How To Fight Federal Drug Trafficking Charges</a></h2>
                                         <a class="margin" href="how-to-fight-federal-drug-trafficking-charges">Read More</a>
                                 </div>
                                 </div>
                                 <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/for-sale.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
+                                <img src="/img/for-sale.png" class="d-block" alt="...">
+                                <div class="carousel-caption d-md-block box-wrapper">
                                     <h2> <a href="top-8-things-avoid-real-estate-agent-choose-list-home">Top 8 Things to Avoid in the Real State Age...</a></h2>
                                         <a class="margin" href="top-8-things-avoid-real-estate-agent-choose-list-home">Read More</a>
                                 </div>
                                 </div>
                                 <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/chicken.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
+                                <img src="/img/chicken.png" class="d-block" alt="...">
+                                <div class="carousel-caption d-md-block box-wrapper">
                                     <h2> <a href="serious-animal-cruelty-crimes-act-nsw">Serious Animal Cruelty Under the Crime Acts...</a></h2>
                                         <a class="margin" href="serious-animal-cruelty-crimes-act-nsw">Read More</a>
                                 </div>
                                 </div>
                                 <div class="carousel-item" style="width: 1024px; height:520px">
-                                <img src="/img/pork.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block box-wrapper">
+                                <img src="/img/pork.png" class="d-block" alt="...">
+                                <div class="carousel-caption d-md-block box-wrapper">
                                     <h2> <a href="act-ban-factory-farming-will-enforced">ACT Ban Factory Farming but How will it be E...</a></h2>
                                         <a class="margin" href="act-ban-factory-farming-will-enforced">Read More</a>
                                 </div>

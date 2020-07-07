@@ -411,12 +411,11 @@ tr td {
 
 .footer {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .footer p {
   font-size: 14px;
-  margin: 0 0 0 180px;
+  text-align: center;
   color: #837874;
 }
 
@@ -551,5 +550,178 @@ p .label12 {
 
 .marginb {
   margin-bottom: 5px;
+}
+
+@media all and (max-width: 1200px) {
+  .carousel-item {
+    max-width: 880px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .carousel-item {
+    max-width: 620px;
+  }
+
+  .carousel-item img {
+    max-width: 620px;
+    height: 520px;
+  }
+
+  .search-btn,
+  .search-display {
+    margin-right: -30px !important;
+  }
+
+  .row1 p {
+    margin-left: 40px;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .container-fluid {
+    overflow: hidden;
+    max-width: 375px !important;
+    padding: 0 !important;
+  }
+
+  .top-bar {
+    padding-bottom: 10px;
+  }
+
+  .search-display {
+    width: auto !important;
+  }
+
+  .overflow {
+    overflow: visible !important;
+  }
+
+  .search-display input {
+    padding: 5px !important;
+  }
+
+  .box-layout .header-box .search-btn {
+    margin-right: 20px !important;
+  }
+
+  .logo-box img {
+    margin-top: 20px;
+  }
+
+  .slider {
+    padding: 0 20px;
+  }
+
+  .carousel-item {
+    max-width: 450px;
+    max-height: 160px;
+  }
+
+  .carousel-item img {
+    width: 335px;
+    height: 160px;
+  }
+
+  .carousel-caption {
+    height: 160px;
+    width: 350px;
+    margin-top: -80px;
+    margin-left: -205px;
+    padding: 15px;
+    background: transparent;
+    border: none;
+  }
+
+  .carousel-caption h2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .carousel-caption h2 a {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .main {
+    max-width: 100% !important;
+  }
+
+  .display {
+    margin-left: 20px;
+  }
+
+  .side {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+    float: none;
+    overflow: hidden;
+  }
+
+  h2 {
+    font-size: 18px !important;
+  }
+
+  .carousel-indicators {
+    top: 135px;
+  }
+
+  .carousel-indicators li {
+    background-color: #fff !important;
+  }
+
+  .post-content1,
+  .comment-respond,
+  .post-media img {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .post-media img {
+    height: auto !important;
+  }
+
+  footer p {
+    margin: auto !important;
+    padding-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container-fluid {
+    max-width: 100% !important;
+  }
+
+  .carousel-item {
+    max-width: 480px !important;
+  }
+
+  .carousel-item img {
+    width: 380px;
+    height: 160px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .carousel-item {
+    max-width: 450px !important;
+  }
+
+  .carousel-caption {
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .carousel-item {
+    max-width: 400px !important;
+  }
+
+  .carousel-item img {
+    width: 400px;
+  }
 }
 
