@@ -1,4 +1,5 @@
 @extends('layouts.layouts')
+@section('title', 'ACT Ban Factory Farming But How will it be Enforced – Stiff Rowlands')
 @section('content')
             <div class="content">
                     <div class="container-fluid margin-top1">

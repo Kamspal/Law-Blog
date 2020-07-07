@@ -1,4 +1,5 @@
 @extends('layouts.layouts')
+@section('title', 'Serious Animal Cruelty Under the Crimes Act (NSW) – Stiff Rowlands')
 @section('content')
                 <div class="content">
                     <div class="container-fluid margin-top1">

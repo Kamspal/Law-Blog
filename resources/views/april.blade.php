@@ -1,4 +1,5 @@
 @extends('layouts.layouts')
+@section('title', 'April 2020 – Stiff Rowlands')
 @section('content')
     
                 <div class="content">

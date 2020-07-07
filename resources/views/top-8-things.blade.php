@@ -1,4 +1,5 @@
 @extends('layouts.layouts')
+@section('title', 'Top 8 Things to Avoid in the Real Estate Agent you Choose to List your Home – Stiff Rowlands')
 @section('content')
                 <div class="content">
                     <div class="container-fluid margin-top1">

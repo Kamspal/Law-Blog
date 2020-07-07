@@ -1,4 +1,5 @@
 @extends('layouts.layouts')
+@section('title', 'Personal Injury Law – Stiff Rowlands')
 @section('content')
                 <div class="content">
                     <div class="container-fluid margin-top1">
